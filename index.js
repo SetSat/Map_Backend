@@ -6,7 +6,7 @@ app.use(cors());
 
 const dummyRoute = [
     { latitude: 17.385044, longitude: 78.486671 },
-    { latitude: 17.486044, longitude: 78.487671 },
+    { latitude: 17.386044, longitude: 78.487671 },
     { latitude: 17.387044, longitude: 78.488671 },
     { latitude: 17.388044, longitude: 78.489671 },
     { latitude: 17.389044, longitude: 78.490671 },
