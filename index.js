@@ -18,6 +18,7 @@ let currentIndex = 0;
 app.get('/api/vehicle-location', (req, res) => {
     const vehicleLocation = dummyRoute[currentIndex];
     currentIndex = (currentIndex + 1) % dummyRoute.length;
+    console.log(currentIndex)
     res.json(vehicleLocation);
 });
 
